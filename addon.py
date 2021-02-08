@@ -2,18 +2,18 @@ from xbmcswift2 import Plugin, xbmcgui
 from resources.lib import mainaddon
 
 plugin = Plugin()
-url1 = ""
+url1 = "https://www.marketplace.org/feed/podcast/the-uncertain-hour"
 @plugin.route('/')
 def main_menu():
     items = [
         {
             'label': plugin.get_string(30001), 
             'path': plugin.url_for('episodes1'),
-            'thumbnail': ""},
+            'thumbnail': "https://podcastaddict.com/cache/artwork/thumb/2374214"},
         {
             'label': plugin.get_string(30000),
             'path': plugin.url_for('episodes'),
-            'thumbnail': ""},
+            'thumbnail': "https://podcastaddict.com/cache/artwork/thumb/2374214"},
     ]
     return items
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.audio." name="xxxxx" version="1.0.0" provider-name="leopheard">
+<addon id="plugin.audio.theuncertainhour" name="Uncertain Hour" version="1.0.0" provider-name="leopheard">
   <requires>
     <import addon="xbmc.python" version="2.26.0"/>
     <import addon="script.module.xbmcswift2" version="2.4.0"/>
@@ -13,19 +13,19 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <language>en_us</language>
-    <summary lang="en">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</summary>
-    <description lang="en">xxxddddxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</description>
+    <summary lang="en">The Uncertain Hour</summary>
+    <description lang="en">Obscure policies, forgotten histories and why America’s like this. The Uncertain Hour explains our weird, complicated, and often unequal economy – and why some people get ahead and some get left behind. Host Krissy Clark dives into obscure policies and forgotten histories to explain why America is like it is – from welfare reform, to the drug war, to why it’s so much harder to get a “good job” right now. The Uncertain Hour goes deep to tell us how we got here and what it all means.</description>
     <license>The MIT License (MIT)</license>
     <forum></forum>
     <email>leopheard@gmail.com</email>
     <source>https://github.com/leopheard/</source>
-    <website></website>
+    <website>https://www.marketplace.org/shows/the-uncertain-hour/</website>
         	<assets>
 			<icon>resources/media/icon.jpg</icon>
 			<fanart>resources/media/fanart.jpg</fanart>
 			<screenshot>resources/media/1.jpg</screenshot>
-			<screenshot>resources/media/2.jpg</screenshot>
-			<screenshot>resources/media/3.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/1.jpg</screenshot>
 		</assets>
   </extension>
 </addon>
